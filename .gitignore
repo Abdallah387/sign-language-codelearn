@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Local data and generated artifacts
+data/
+datasets/
+models/
+*.csv
+*.npy
+*.joblib
+*.pkl
+*.index
+
+# Notebook and tooling noise
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
